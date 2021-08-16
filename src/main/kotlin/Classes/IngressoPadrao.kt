@@ -1,8 +1,8 @@
 package Classes
 
-class IngressoPadrao(valor: Int) : Ingresso(valor = 50) {
+class IngressoPadrao(valor: Int) : Ingresso(valor) {
 
-    override fun imprimeValor(valor:Int) {
+    override fun imprimeValor() {
         println("O valor do Ingresso Padrão é ${valor}")
     }
 

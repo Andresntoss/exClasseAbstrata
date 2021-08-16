@@ -1,10 +1,10 @@
 package Classes
 
-class IngressoVip(valor: Int) : Ingresso(valor = 50) {
+class IngressoVip(valor: Int) : Ingresso(valor) {
 
     val valorAdicional:Int = 25
 
-    override fun imprimeValor(valor:Int) {
+    override fun imprimeValor() {
         print("O valor do Ingresso Vip é ${valor + valorAdicional}")
     }
 }
